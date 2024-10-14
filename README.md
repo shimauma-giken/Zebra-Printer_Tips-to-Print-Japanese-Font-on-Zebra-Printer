@@ -32,7 +32,7 @@ Updated: 2024/10/14
 | -              | GT24NF55.CPF | Gothic | JA Bitmap Gothic font (24dots) | Pre-installed font**
 | -              | xxxxx.TTF    | - | 3rd Party TTF Font | 
 
-\* [zebra.com: Fonts for Zebra Printers](https://www.zebra.com/us/en/support-downloads/software/printer-software/printer-fonts.html)
+\* [zebra.com: Fonts for Zebra Printers](https://www.zebra.com/us/en/support-downloads/software/printer-software/printer-fonts.html) <br>
 \** 一部のモバイルプリンタにプリンインストールされている
 
 ###### 参考
@@ -83,7 +83,9 @@ Updated: 2024/10/14
 
 ###### 参考
 [NOTOMRJ--SGMTJの入手とインストール方法](https://github.com/shimauma-giken/Zebra-Printer_How-to-download-and-install-NOTOMRJ--SGMTJ-fonts)
+
 [USBメモリを利用してAndaleフォントをプリンタにインストールする方法](https://github.com/shimauma-giken/Zebra-Printer_Andale-Japanese--font-installer-for-Zebra-printer-by-USB-thumb-drive)
+
 [ゼブラプリンタにIPA 明朝/ゴシックフォントをインストールする方法](https://github.com/shimauma-giken/Zebra-Printer_IPA-Japanese--font-installer-for-Zebra-printer-by-USB-thumb-drive)
 
 
@@ -164,7 +166,9 @@ ZD3ではZPL/TTFの組み合わせのみサポートしている。詳細な手�
 
 ###### 参考
 [Zebra Designer 3でプリンタ内蔵の日本語フォントを利用する方法](https://github.com/shimauma-giken/Zebra-Printer-Add-Japanese-Font-to-Windows-Driver-to-Utilize-in-Zebra-Designer)
+
 [ZebraDesigner3でサポートされているフォント](https://github.com/shimauma-giken/Zebra-Printer_Supported-Japanese-fonts-on-ZebraDesigner3-)
+
 [3rdパーティフォントをZebra Designer 3 で利用する方法](https://github.com/shimauma-giken/How-to-print-3rd-party-TTF-fonts-on-Zebra-Designer-3-)
 
 
