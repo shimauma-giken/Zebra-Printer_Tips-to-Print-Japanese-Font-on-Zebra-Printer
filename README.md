@@ -228,11 +228,21 @@ PRINT
 
 <br>
 
+Enjoy Zebra！
+
+<br>
+<br>
+
+
+<img height=500 src="https://images.pexels.com/photos/2448499/pexels-photo-2448499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+
 ------
 
+<br>
+<br>
+
 <font size=1>
-<br>
-<br>
 
 # 免責事項   
 
