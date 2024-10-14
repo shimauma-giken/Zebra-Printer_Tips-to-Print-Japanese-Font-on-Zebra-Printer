@@ -33,7 +33,7 @@ Updated: 2024/10/14
 | -              | xxxxx.TTF    | - | 3rd Party TTF Font | 
 
 \* [zebra.com: Fonts for Zebra Printers](https://www.zebra.com/us/en/support-downloads/software/printer-software/printer-fonts.html) <br>
-\** 一部のモバイルプリンタにプリンインストールされている
+\** 一部のモバイルプリンタにプリンインストールされている。
 
 ###### 参考
 [NOTOMRJ--SGMTJの入手とインストール方法](https://github.com/shimauma-giken/Zebra-Printer_How-to-download-and-install-NOTOMRJ--SGMTJ-fonts)
@@ -41,6 +41,52 @@ Updated: 2024/10/14
 
 <br>
 <br>
+
+#### 用語解説（スケーラブル・ビットマップフォント）
+
+2024年現在はプリンタ内蔵ドライブ容量も十分に大きいため、利用者による指定や制限が無い限り、スケーラブルフォント（TTF）を用いることが一般的。
+
+<table>
+<caption>用語解説</caption>
+<tr>
+   <th>フォント</th>
+   <th>特徴</th>
+   <th>対応プリンタ</th>
+</tr>
+<tr>
+   <td>スケーラブルフォント</td>
+   <td>
+   ・ ファイルサイズが比較的大きい。 <br>
+   ・ ドット単位でフォントの拡大縮小できる。 <br>
+   ・ X/Y比を自由に変更できる。 <br>
+   </td>
+   <td>
+   ・ Link-OS (ZPL)  + TTF<br>
+   ・ Link-OS (CPCL) + TTF
+   </td>
+</tr>
+<tr>
+   <td>ビットマップフォント</td>
+   <td>
+   ・ ファイルサイズが小さい。 <br>
+   ・ 固定サイズ、若しくは、等倍の拡大サイズのみ対応。* <br>
+   ・ X/Y比は固定。（基本的にはX=Y）
+   </td>
+   <td>
+   ・ Link-OS (ZPL)  + FNT <br>
+   ・ Link-OS (CPCL) + CPF <br>
+   ・ Link-OS basic (CPCL) + CPF
+   </td>
+</tr>
+</table>
+
+<br>
+
+\* オリジナルの固定サイズ、拡大可否などはフォントによって異なる。フォントによっては拡大できないものもある。詳細はフォントの仕様を確認すること。
+
+<br>
+<br>
+
 
 # フォント/プログラミング言語対応表
 
