@@ -4,13 +4,16 @@
 
 Updated: 2024/10/14
 
+
+<img height="700" src="https://images.unsplash.com/photo-1512580526143-1f24419088a3?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
 <br>
 
 
 ゼブラプリンタには利用シーンに応じて適切なフォントが利用できるように多くのプリンタ内蔵フォントが用意されている。
 コスト・スペックに応じて、適したフォントを選択すること。
 
-また、サードパーティ製フォントを用いた印刷はメーカのフルサポートが受けられないため、実機検証の上で利用可否を判断すること。
+- サードパーティ製フォントを用いた印刷はメーカのフルサポートが受けられないため、実機検証の上で利用可否を判断すること。
 
 <br>
 
@@ -41,6 +44,10 @@ Updated: 2024/10/14
 
 # フォント/プログラミング言語対応表
 
+<img height=500 src="https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+<br>
+
 プリンタやプログラミング言語によって使用できるフォントが異なるため、下記表を参考に適した印刷環境を構築すること。
 特にLink-OS Basicは日本語フォント利用にあたって、制限が多いので注意が必要である。
 
@@ -68,6 +75,9 @@ Updated: 2024/10/14
 
 # フォントインストール方法
 
+<img height=500 src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+<br>
 インストール方法についてはフォント付属のガイドに従って実施すること。
 また、内蔵フォントにフォントを格納するための空き容量があるか確認すること。
 
@@ -81,6 +91,10 @@ Updated: 2024/10/14
 <br>
 
 # プリンタ内蔵のフォント確認・内蔵ドライブ空き容量確認方法
+
+<img height=500 src="https://images.pexels.com/photos/33278/disc-reader-reading-arm-hard-drive.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+<br>
 
 下記コマンドにて確認すること。
 
@@ -139,6 +153,10 @@ Updated: 2024/10/14
 
 # 内蔵フォントを利用して日本語を印刷する方法
 
+<img height=500 src="https://images.pexels.com/photos/4440798/pexels-photo-4440798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+<br>
+
 ## Zebra Designer 3 を用いた印刷
 
 ZD3ではZPL/TTFの組み合わせのみサポートしている。詳細な手順は下記リンクを確認すること。
@@ -149,10 +167,15 @@ ZD3ではZPL/TTFの組み合わせのみサポートしている。詳細な手�
 [ZebraDesigner3でサポートされているフォント](https://github.com/shimauma-giken/Zebra-Printer_Supported-Japanese-fonts-on-ZebraDesigner3-)
 [3rdパーティフォントをZebra Designer 3 で利用する方法](https://github.com/shimauma-giken/How-to-print-3rd-party-TTF-fonts-on-Zebra-Designer-3-)
 
+
+<br>
+<br>
+
 ## プログラミング言語を用いた印刷
 
 アプリやPLCから印刷指示を送信する場合はプログラミング言語による印刷が多用される。
 コードの詳細については各プログラミングガイドをzebra.comからダウンロードし、確認すること。
+また、スクリプトコードををプリンタに送信する場合、矛盾した文字コードとならないように気を付けること。
 
 <br>
 
