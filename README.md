@@ -282,6 +282,45 @@ TEXT GT24NF55.CPF 0 0 150 サイズ24
 PRINT
 </pre>
 
+#### サンプルコード2 (フォーマットに変数を代入する方法)
+<pre>
+! DEFINE-FORMAT TEST.FMT
+! 0 200 200 400 1
+
+PW 575
+SETFF 0 5
+ON-FEED FEED
+NO-PACE
+JOURNAL
+
+; Set encoding to S-JIS
+COUNTRY JAPAN-S
+
+; Darkness and print speed
+; Change if necessary
+;TONE 50
+SPEED 2
+
+T 56 0 010 025 印刷 T56
+T 55 0 010 050 印刷 T55
+T GT16NF55.CPF 0 010 100 印刷 GT16
+T GT24NF55.CPF 0 010 125 印刷 GT24
+
+T 56 0 010 225 \\
+T 55 0 010 250 \\
+T GT16NF55.CPF 0 010 300 \\
+T GT24NF55.CPF 0 010 325 \\
+
+PRINT
+
+! USE-FORMAT TEST.FMT
+変数　1行目
+変数　2行目
+変数　3行目
+変数　4行目
+
+</pre>
+
 <br>
 
 Enjoy Zebra！
