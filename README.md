@@ -244,6 +244,31 @@ ZD3ではZPL/TTFの組み合わせのみサポートしている。詳細な手�
 ^XZ  
 </pre>
 
+#### QR利用時は^CI値が異なるので注意
+<pre>
+^XA
+^FO100,450^A@N,50,50,NOTOMRJ.TTF
+^CI28^FD日ホンごﾃｽﾄ123^FS
+^FO100,100^BQN,2,10
+^CI14^FDLA,日ホンごﾃｽﾄ123^FS
+^XZ
+</pre>
+
+</br>
+
+### ZPL+TTF を用いた印刷（Shift-JIS）
+
+<pre>
+^XA
+^SEE:JIS.DAT
+^FO100,450^A@N,50,50,E:NOTOMRJ.TTF^CI15^FD日ホンごﾃｽﾄ123^FS
+^FO100,550^A@N,50,50,E:SGMTJ.TTF^CI15^FD日ホンごﾃｽﾄ123^FS
+^FO100,100^BQN,2,10^CI15^FDLA,日ホンごﾃｽﾄ123^FS
+^XZ
+</pre>
+
+
+
 <br>
 
 ### CPCL+TTF を用いた印刷（UTF-8）
